@@ -6,6 +6,7 @@ use tracing_subscriber::{layer::SubscriberExt,util::SubscriberInitExt};
 
 mod tools;
 mod types;
+mod anchor;
 
 #[tokio::main]
 async fn main(){

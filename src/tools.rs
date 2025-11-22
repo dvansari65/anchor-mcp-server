@@ -3,7 +3,7 @@ use std::sync::Arc;
 use rmcp::{Json, model::{Tool,ToolAnnotations,Icon}};
 use serde_json::json; 
 
-pub fn get_tools ()-> Vec<Tool> {
+pub fn deploy_tool () -> Vec<Tool> {
     let schema_value = json!({
         "type":"object",
         "properties" : {
